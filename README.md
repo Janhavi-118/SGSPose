@@ -144,6 +144,10 @@ The notebook includes:
 
 ### Architecture Overview
 
+![SGSPose Architecture Diagram](assets/architecture.png)
+
+The SGSPose pipeline combines event-driven neuromorphic encoding with geometric reasoning for robust 6D pose estimation. Input RGB images are processed through spiking neurons to extract efficient temporal features, which are then structured into spatial graphs and refined through SE(3)-equivariant message passing to produce both translation and rotation estimates.
+
 ```
 Input Image (RGB, 128×128)
     ↓
