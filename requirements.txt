@@ -1,0 +1,11 @@
+torch==2.1.0
+torchvision
+torchaudio
+snntorch==0.9.4
+e3nn==0.5.0
+torch-geometric
+torch-scatter
+kornia
+SimpleITK
+open3d
+numpy==1.24.4
