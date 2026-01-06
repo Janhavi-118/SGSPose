@@ -1,6 +1,6 @@
 # SGSPose: Neuromorphic-Geometric 6D Pose Estimation
 
-**SGSPose** is a novel deep learning architecture for robust and energy-efficient 6D pose estimation, combining **spiking neural networks (SNNs)**, **graph neural networks (GNNs)**, and **SE(3)-equivariant** geometric reasoning. This method achieves state-of-the-art translation accuracy on the 7Scenes benchmark while maintaining computational efficiency through neuromorphic processing.
+**SGSPose** is a novel deep learning architecture for robust and energy-efficient 6D pose estimation, combining **spiking neural networks (SNNs)**, **graph neural networks (GNNs)**, and **SE(3)-equivariant** geometric reasoning. This method achieves state-of-the-art translation accuracy on the 7Scenes benchmark while maintaining computational efficiency through neuromorphic processing. This work is published in IEEE Access.
 
 ## Key Features
 
@@ -35,7 +35,7 @@ SGSPose achieves exceptional translation accuracy across the 7Scenes dataset:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SGSPose.git
+git clone https://github.com/Janhavi-118/SGSPose.git
 cd SGSPose
 ```
 
@@ -280,4 +280,4 @@ For more context on the techniques used, refer to:
 - SE(3)-Equivariant Networks (Thomas et al., 2018)
 - Graph Neural Networks (GNNs) for Pose Estimation (Rezazadeh et al., 2023)
 
-**Status**: Under Review at IEEE Access
+**Status**: Published at IEEE Access
